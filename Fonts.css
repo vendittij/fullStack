@@ -1,3 +1,19 @@
-p{
+
+.font-Merriweather {
   font-family: 'Merriweather', serif;
+}
+.RobotoSlab {
+  font-family: 'Roboto Slab', serif;
+}
+.Arapey {
+  font-family: 'Arapey', serif;
+}
+.Vollkorn {
+  font-family: 'Vollkorn', serif;
+}
+.Lobster {
+  font-family: 'Lobster', cursive;
+}
+.Playfair {
+  font-family: 'Playfair Display', serif;
 }
