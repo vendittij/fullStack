@@ -1,3 +1,5 @@
+@@media (max-width:399px) {
+
 
 .bod{
   background-color: #F7E9EA;
@@ -39,7 +41,7 @@
   padding: 15px 15px 15px 15px;
 }
 
-
+}
 @media (min-width: 400:px) and (max-width: 949px){
 
 }
