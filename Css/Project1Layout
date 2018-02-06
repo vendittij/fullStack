@@ -3,11 +3,16 @@
 }
 
 .flex-container {
-  Display: flex;
+  display: flex;
   margin: 2px;
   padding: 25px 25px 25px 25px;
   border-style: solid;
   border-width: 1.75px;
+}
+
+.rightContainer {
+  float: right;
+  width: 340px;
 }
 
 .content {
@@ -15,6 +20,13 @@
   padding: 25px 25px 25px 25px;
   border-style: solid;
   border-width: 1.75px;
+  overflow: auto
+}
+
+.picture {
+  float: right;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .column {
