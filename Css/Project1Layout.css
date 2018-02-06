@@ -1,37 +1,46 @@
-.bod{
-  background-color: #C8BDC6;
+@media (min-width: 400:px) and (max-width: 949px){
+  
 }
 
-.flex-container {
-  display: flex;
-  margin: 2px;
-  padding: 25px 25px 25px 25px;
-  border-style: solid;
-  border-width: 1.75px;
-}
+@media (min-width:950px){
+  .bod{
+    background-color: #F7E9EA;
+  }
 
-.rightContainer {
-  float: right;
-  width: 24%;
-}
+  .flex-container {
+    display: flex;
+    margin: 2px;
+    padding: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 1.75px;
+  }
 
-.content {
-  margin: 2px;
-  padding: 25px 25px 25px 25px;
-  border-style: solid;
-  border-width: 1.75px;
-  overflow: auto;
-}
+  .rightContainer {
+    float: right;
+    width: 24%;
+  }
+  .leftContainer {
+    float:left;
+    width: 76%;
+  }
 
-.picture {
-  float: right;
-  border-style: solid;
-  border-width: 2px;
-}
+  .content {
+    margin: 2px;
+    padding: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 1.75px;
+    overflow: auto;
+  }
 
-.column {
-  flex-grow:1;
-  flex-shrink:1;
-  margin: 2px;
-  padding: 15px 15px 15px 15px;
+  .picture {
+    float: right;
+
+  }
+
+  .column {
+    flex-grow:1;
+    flex-shrink:1;
+    width: 33%;
+    padding: 15px 15px 15px 15px;
+  }
 }
