@@ -4,25 +4,24 @@
 }
 
 .flex-container {
-  display: flex;
+  display: static;
   margin: 2px;
-  padding: 25px 25px 25px 25px;
+  padding: 4% 2% 4% 2%;
   border-style: solid;
   border-width: 1.75px;
 }
 
 .rightContainer {
-  float: right;
-  width: 100%;
+  width: 100%
 }
 .leftContainer {
-  float:left;
-  width: 100%;
+  width: 100%
+
 }
 
 .content {
   margin: 2px;
-  padding: 25px 25px 25px 25px;
+  padding: 4% 2% 4% 2%;
   border-style: solid;
   border-width: 1.75px;
   overflow: auto;
@@ -52,8 +51,8 @@
 
   .flex-container {
     display: flex;
-    margin: 2px;
-    padding: 25px 25px 25px 25px;
+    margin: .1%;
+
     border-style: solid;
     border-width: 1.75px;
   }
@@ -68,8 +67,7 @@
   }
 
   .content {
-    margin: 2px;
-    padding: 25px 25px 25px 25px;
+    margin: .1%;
     border-style: solid;
     border-width: 1.75px;
     overflow: auto;
