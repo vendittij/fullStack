@@ -1,0 +1,25 @@
+.bod{
+  background-color: #C8BDC6;
+}
+
+.flex-container {
+  Display: flex;
+  margin: 2px;
+  padding: 25px 25px 25px 25px;
+  border-style: solid;
+  border-width: 1.75px;
+}
+
+.content {
+  margin: 2px;
+  padding: 25px 25px 25px 25px;
+  border-style: solid;
+  border-width: 1.75px;
+}
+
+.column {
+  flex-grow:1;
+  flex-shrink:1;
+  margin: 2px;
+  padding: 15px 15px 15px 15px;
+}
