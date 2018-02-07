@@ -1,5 +1,5 @@
 .bod{
-  background-color: #F7E9EA;
+  background-color: #3D6DAA;
 }
 
 .flex-container {
@@ -8,6 +8,9 @@
   padding: 4% 2% 4% 2%;
   border-style: solid;
   border-width: 1.75px;
+  border-color: #235799;
+  background-color: #B4CEEF;
+
 }
 
 .rightContainer {
@@ -17,12 +20,22 @@
   width: 100%
 
 }
+.headingTitle{
+  color: #FFFFFF;
+  font-size: 1.75em;
+}
+
+.headingOther{
+  color: #062145;
+}
 
 .content {
   margin: 2px;
   padding: 4% 2% 4% 2%;
   border-style: solid;
   border-width: 1.75px;
+  border-color: #235799;
+  background-color: #B4CEEF;
   overflow: auto;
 }
 
@@ -42,10 +55,12 @@
   padding: 15px 15px 15px 15px;
 }
 
+p{
+  font-family: 'Playfair Display', serif;
+}
+
 @media(min-width: 425px) and (max-width: 979px)  {
-  .bod{
-    background-color: #F7E9EA;
-  }
+
 
   .flex-container {
     display: flex;
@@ -89,9 +104,7 @@
 }
 
 @media(min-width: 980px) {
-  .bod{
-    background-color: #F7E9EA;
-  }
+
 
   .flex-container {
     display: flex;
