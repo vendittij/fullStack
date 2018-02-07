@@ -56,7 +56,11 @@
   flex-grow:1;
   flex-shrink:0;
   width: 100%;
-  padding: 15px 15px 15px 15px;
+  padding: 2% 1% 1% 2%;
+  margin: 2% 1% 1% 2%;
+  border-left: solid;
+  border-right: solid;
+  border-color: #B5D5EC;
 }
 
 p{
@@ -103,7 +107,7 @@ p{
     flex-grow:0;
     flex-shrink:1;
     width: 42%;
-    padding: 4% 2% 2% 4%;
+    margin: 2% 1% 1% 2%;
   }
 }
 
@@ -125,7 +129,7 @@ p{
   .rightContainer {
     float: right;
     width: 24%;
-    
+
   }
   .leftContainer {
     float:left;
@@ -152,6 +156,7 @@ p{
     flex-grow:1;
     flex-shrink:0;
     width: 25%;
-    padding: 15px 15px 15px 15px;
+    margin: 2% 1% 1% 2%;
+
   }
 }
