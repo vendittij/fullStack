@@ -3,58 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel ="stylesheet" href="Css/Project1Layout.css">
-    <link href="https://fonts.googleapis.com/css?family=Arapey%7cLobster%7cMerriweather%7cPlayfair+Display%7cRoboto+Slab%7cVollkorn" rel="stylesheet">
+    <link rel ="stylesheet" href="../Css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Lobster|Merriweather|Playfair+Display|Roboto+Slab|Vollkorn" rel="stylesheet">
     <title>Portfolio</title>
   </head>
 
 
-  <body class="bod">
+  <body class="container text-center">
     <section class="headingTitle">
       <h1> John Venditti's Web Portfolio </h1>
     </section>
 
-    <article class="rightContainer">
-      <section class="content">
-        <article class="picture">
-        <img src="Images/photo1.png" alt="John Venditti" width="275" height="304">
+    <section class="row">
+      <article class="col-6">
+        <img src="../Images/photo1.png" class="img-fluid" alt="John Venditti" width="275" height="304">
       </article>
-        <h2 class="headingOther"> About Me </h2>
+      <article class="col-6">
+        <h2> About Me </h2>
         <p >John Venditti <br> jdv005@bucknell.edu</p>
+      </article>
       </section>
-      <section class="content">
+
+      <section class="row">
+        <article class="col-12">
         <h2 class="headingOther"> FullStack </h2>
         <p> Professor Marchiori<br>Bucknell University<br>11:00 2018 </p>
+      </article>
       </section>
-    </article>
 
-    <article class="leftContainer">
-    <section class="content">
+
+    <article class="row">
+    <section class="col-12">
       <h2 class="headingOther"> Overview </h2>
       <p> This portfolio is here to showcase my work in http as well as CSS and JavaScript.
         There are 3 projects to be seen and each one encapsulates different skills learned
         in this class.</p>
     </section>
-    <section class="flex-container">
-      <article class="header">
+  </article>
+    <section class="row">
+      <article class="col-12">
         <h2 class="headingOther"> Projects </h2>
       </article>
-      <article class="column">
+      <article class="col-lg-4 col-md-6 col-sm-12">
         <h3> Project 1 </h3>
           <p> Project 1a to format this website. This required the use of flexboxes
           and other css objects. The use of media queries were also involved to
           have the site available for all platforms. </p>
       </article>
-      <article class="column">
+      <article class="col-lg-4 col-md-6 col-sm-12">
         <h3> Project 2 </h3>
           <p> Coming soon </p>
       </article>
-      <article class="column">
+      <article class="col-lg-4 col-md-12 col-sm-12">
         <h3> Final Project </h3>
           <p> Coming soon </p>
       </article>
     </section>
-    <section class="content">
+    <article class="row">
+    <section class="col-12">
       <h2 class="headingOther"> Other Course Work </h2>
         <a href="Html/FontFun.html"> Font Fun!</a>
     </section>
