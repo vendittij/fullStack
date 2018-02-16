@@ -2,9 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel ="stylesheet" href="../Css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Arapey|Lobster|Merriweather|Playfair+Display|Roboto+Slab|Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey%7cLobster%7cMerriweather%7cPlayfair+Display%7cRoboto+Slab%7cVollkorn" rel="stylesheet">
     <title>Portfolio</title>
   </head>
 
@@ -14,33 +13,35 @@
       <h1> John Venditti's Web Portfolio </h1>
     </section>
 
-    <section class="row">
-      <article class="col-6">
+    <div class="row">
+      <div class="col-6">
         <img src="../Images/photo1.png" class="img-fluid" alt="John Venditti" width="275" height="304">
-      </article>
+      </div>
       <article class="col-6">
         <h2> About Me </h2>
         <p >John Venditti <br> jdv005@bucknell.edu</p>
       </article>
-      </section>
+    </div>
 
-      <section class="row">
-        <article class="col-12">
+    <div class="row">
+      <article class="col-12">
         <h2 class="headingOther"> FullStack </h2>
         <p> Professor Marchiori<br>Bucknell University<br>11:00 2018 </p>
       </article>
-      </section>
+    </div>
 
 
-    <article class="row">
+    <div class="row">
     <section class="col-12">
       <h2 class="headingOther"> Overview </h2>
       <p> This portfolio is here to showcase my work in http as well as CSS and JavaScript.
         There are 3 projects to be seen and each one encapsulates different skills learned
         in this class.</p>
     </section>
-  </article>
-    <section class="row">
+  </div>
+
+
+    <div class="row">
       <article class="col-12">
         <h2 class="headingOther"> Projects </h2>
       </article>
@@ -58,12 +59,24 @@
         <h3> Final Project </h3>
           <p> Coming soon </p>
       </article>
-    </section>
-    <article class="row">
+    </div>
+
+
+    <div class="row">
     <section class="col-12">
       <h2 class="headingOther"> Other Course Work </h2>
-        <a href="Html/FontFun.html"> Font Fun!</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="#">Other Course Work </a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/FontFun.html"> Font Fun!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/BootstrapExamples.html"> BootstrapExamples! </a>
+          <li>
+        </ul>
+      </nav>
     </section>
-  </article>
+  </div>
   </body>
 </html>
