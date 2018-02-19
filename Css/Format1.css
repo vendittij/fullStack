@@ -1,0 +1,27 @@
+.back{
+  background-color: #3D6DAA;
+}
+
+.headingTitle{
+  color: #FFFFFF;
+  font-size: 1.75em;
+  text-shadow: .2em .2em #235799;
+}
+
+.content{
+  border-style: solid;
+  border-width: 1.75px;
+  border-color: #235799;
+  background-color: #B4CEEF;
+}
+
+.project{
+  height: 100%;
+  border-left: solid;
+  border-right: solid;
+  border-color: #B5D5EC;
+}
+
+nav{
+  width: auto;
+}
