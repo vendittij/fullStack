@@ -2,63 +2,98 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel ="stylesheet" href="Css/Project1Layout.css">
+    <link rel ="stylesheet" href="Css/bootstrap.css">
+    <link rel ="stylesheet" href="Css/Format1.css">
     <link href="https://fonts.googleapis.com/css?family=Arapey%7cLobster%7cMerriweather%7cPlayfair+Display%7cRoboto+Slab%7cVollkorn" rel="stylesheet">
     <title>Portfolio</title>
   </head>
 
 
-  <body class="bod">
+  <body class="container text-center back">
     <section class="headingTitle">
       <h1> John Venditti's Web Portfolio </h1>
     </section>
 
-    <div class="rightContainer">
-      <section class="content">
-        <div class="picture">
-        <img src="Images/photo1.png" alt="John Venditti" width="275" height="304">
+    <div class="row">
+      <div class="col-6 content">
+        <img src="Images/photo1.png" class="img-fluid img-circle" alt="John Venditti" width="275" height="304">
       </div>
-        <h2 class="headingOther"> About Me </h2>
-        <p >John Venditti <br> jdv005@bucknell.edu</p>
-      </section>
-      <section class="content">
-        <h2 class="headingOther"> FullStack </h2>
-        <p> Professor Marchiori<br>Bucknell University<br>11:00 2018 </p>
-      </section>
+      <article class="col-6 content">
+        <h2> About Me </h2>
+        <p >John Venditti <br> jdv005@bucknell.edu <br> Computer Science and Engineering</p>
+        <a class="btn-lg btn-primary" href="Images/Resume.pdf" target="_blank"> My Resume</a>
+        <p> <br> </p>
+        <a class="btn btn-primary" href="Images/Resume.pdf" download> Download</a>
+      </article>
     </div>
 
-    <div class="leftContainer">
-    <section class="content">
+    <div class="row content">
+      <article class="col-12">
+        <h2 class="headingOther"> FullStack </h2>
+        <p> Professor Marchiori<br>Bucknell University<br>11:00 2018 </p>
+      </article>
+    </div>
+
+
+    <div class="row content">
+    <section class="col-12">
       <h2 class="headingOther"> Overview </h2>
-      <p> This portfolio is here to showcase my work in http as well as CSS and JavaScript.
+      <p> This portfolio is here to showcase my work in HTML as well as CSS and JavaScript.
         There are 3 projects to be seen and each one encapsulates different skills learned
-        in this class.</p>
+        in this class. There are other activities that have been completed also linked on
+      this page. As I learn and develope my skills this site will evolve.  </p>
     </section>
-    <div class="flex-container">
-      <article class="header">
+  </div>
+
+
+    <div class="row content">
+      <article class="col-12 ">
         <h2 class="headingOther"> Projects </h2>
       </article>
-      <article class="column">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <article class="project">
         <h3> Project 1 </h3>
           <p> Project 1a to format this website. This required the use of flexboxes
           and other css objects. The use of media queries were also involved to
-          have the site available for all platforms. <br><a href="Html/Project1b.html"> Bootstrap Version</a></p>
-      </article>
-      <article class="column">
+          have the site available for all platforms. Bootstrap was substituted for
+          media queries. This page is formatted with bootstrap.</p>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <article class="project">
         <h3> Project 2 </h3>
           <p> Coming soon </p>
-      </article>
-      <article class="column">
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <article class="project">
         <h3> Final Project </h3>
           <p> Coming soon </p>
-      </article>
+        </article>
+      </div>
     </div>
-    <section class="content">
-      <h2 class="headingOther"> Other Course Work </h2>
-        <a href="Html/FontFun.html"> Font Fun!</a>
-        <a  href="Html/BootstrapExamples.html"> BootstrapExamples! </a>
-    </section>
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="#">Other Course Work </a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="#"> Home! </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Html/FontFun.html" target="_blank"> Font Fun!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Html/BootstrapExamples.html" target="_blank"> BootstrapExamples! </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
+
+
+
+
   </body>
 </html>
