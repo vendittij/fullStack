@@ -1,18 +1,23 @@
 .back{
-  background-color: #3D6DAA;
+  background-color: #5baabe
+  ;
+}
+
+p{
+  color: white;
 }
 
 .headingTitle{
   color: #FFFFFF;
   font-size: 1.75em;
-  text-shadow: .2em .2em #235799;
+  text-shadow: .2em .2em #3a8092;
 }
 
 .content{
   border-style: solid;
   border-width: 1.75px;
-  border-color: #235799;
-  background-color: #B4CEEF;
+  border-color: #1E434C;
+  background-color: #a22911;
 }
 
 .project{
@@ -24,6 +29,21 @@
 
 .navbar{
   width: 100%;
-  
 
+}
+
+.cardback{
+  background-color: #a22911;
+}
+
+.NavColor{
+  background-color: #3a8092;
+}
+
+.behindCardText{
+  background-color: #C99e10;
+}
+
+.cardText{
+  color: black;
 }
